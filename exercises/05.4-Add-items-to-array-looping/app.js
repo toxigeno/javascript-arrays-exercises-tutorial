@@ -1,4 +1,4 @@
-var arr = [4,5,734,43,45];
+var arr = [4, 5, 734, 43, 45];
 
 //*****************
 // Your code here
@@ -8,4 +8,8 @@ var arr = [4,5,734,43,45];
 // }
 //*****************
 
-console.log(arr);
+for (let i = 1; i < 11; i++) {
+     var n1 = Math.floor(Math.random() * 10);
+     arr.push(n1)
+};
+    console.log(arr);
